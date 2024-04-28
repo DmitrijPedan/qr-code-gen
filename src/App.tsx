@@ -47,7 +47,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-900 text-slate-100">
+    <div className="min-h-screen bg-slate-900 text-slate-400">
       <header className="bg-white p-2 w-full sticky top-0 flex text-slate-900">
         <div className="container px-2 mx-auto">
           <nav className="flex justify-between">
@@ -104,7 +104,7 @@ function App() {
         <div className="w-full max-w-xl">
           <form onSubmit={onSubmit} className="flex flex-col">
             <div>
-              <label className="block" htmlFor="qrValue">
+              <label className="block text-sm" htmlFor="qrValue">
                 Please, provide your value:
               </label>
               <div className="relative mb-2">
@@ -132,10 +132,10 @@ function App() {
               </div>
             </div>
             <div>
-              <label className="block" htmlFor="qrLabel">
+              <label className="block text-sm" htmlFor="qrLabel">
                 Label (optional):
               </label>
-              <div className="relative mb-2">
+              <div className="relative mb-4">
                 <button
                   title="Clear input"
                   type="button"
@@ -161,7 +161,7 @@ function App() {
             </div>
             <button
               type="submit"
-              className="text-center mt-2 py-1 px-4 bg-green-500 text-white disabled:bg-gray-300 disabled:cursor-not-allowed"
+              className="text-center mt-2 p-2 bg-green-500 text-white disabled:bg-gray-300 disabled:cursor-not-allowed"
               disabled={!formValues.value}
             >
               <span>
