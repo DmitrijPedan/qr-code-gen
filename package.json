@@ -36,5 +36,5 @@
     "typescript": "^5.2.2",
     "vite": "^5.2.0"
   },
-  "homepage": "https://dmitrijpedan.github.io/qr-code-gen/"
+  "homepage": "https://dmitrijpedan.github.io/qr-code-gen"
 }
